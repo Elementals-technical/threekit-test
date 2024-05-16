@@ -3,7 +3,7 @@ import { CardProduct } from "../../components/CardProduct/CardProduct";
 import s from "./Products.module.scss";
 import { PlayerThreekit } from "../../components/PlayerThreekit/PlayerThreekit";
 export const Products = () => {
-  const [configProduct, setConfigProduct] = useState({
+  const [configProduct, setConfigProduct] = useState( {
     Offer: "EXO FEMME",
     Model: "Petite Malle",
     "Model Size": "Petite Malle",
@@ -28,7 +28,8 @@ export const Products = () => {
     source: "variants",
     url: "https://lv-vivatech-vector.3kit.com/player?sku=P01341&color=undefined&assetId=fba18074-ecbf-43ad-9921-6e1be983c190",
     assetId: "fba18074-ecbf-43ad-9921-6e1be983c190",
-  });
+  },
+ );
   const listProducts = [
     {
       Offer: "EXO FEMME",
@@ -56,59 +57,7 @@ export const Products = () => {
       url: "https://lv-vivatech-vector.3kit.com/player?sku=P01341&color=undefined&assetId=fba18074-ecbf-43ad-9921-6e1be983c190",
       assetId: "fba18074-ecbf-43ad-9921-6e1be983c190",
     },
-    {
-      Offer: "EXO FEMME",
-      Model: "City Steamer",
-      "Model Size": "City Steamer Mini",
-      "Exterior Material": "Ostrich",
-      Shine: "Mat",
-      "Exterior Color": "Zinc",
-      "Lining Material": "Chevre",
-      "Lining Color": "Zinc",
-      "Metallic Finition": "Palladium",
-      "Can Have Patch or Engraving": "No",
-      "Can Have Lock": "No",
-      SKU: "N85021",
-      "Delivery Time in Days": "14",
-      Price: "7500",
-      Gender: "Woman",
-      "Exterior Color Description": "charcoal grey",
-      Type: "Handbag",
-      "detailed description":
-        "More business-oriented with a focus on compartments compared to the more compact and sleek design of the Alma BB.  Best For: A secure and modern luxurious handbag ideal for work, events such as trade shows or distingusihed business travels.. Good for carrying: Ipad",
-      "Make up. Good Alternative Products": "Alma BB",
-      ID: "N85021-EXOTMAT04-EXOTCOLE303-EXOTCOLI303-EXOTMFIN02",
-      source: "variants",
-      url: "https://lv-vivatech-vector.3kit.com/player?sku=N85021&color=undefined&assetId=602d0fbc-7810-4ecf-994f-5a57b2dcd9fb",
-      assetId: "602d0fbc-7810-4ecf-994f-5a57b2dcd9fb",
-    },
-
-    {
-      Offer: "EXO FEMME",
-      Model: "City Steamer",
-      "Model Size": "City Steamer PM",
-      "Exterior Material": "Crocodilian",
-      Shine: "Brillant",
-      "Exterior Color": "Blanc",
-      "Lining Material": "Chevre",
-      "Lining Color": "Blanc",
-      "Metallic Finition": "Light gold",
-      "Can Have Patch or Engraving": "Yes",
-      "Can Have Lock": "No",
-      SKU: "P01810",
-      "Delivery Time in Days": "42",
-      Price: "25000",
-      Gender: "Woman",
-      "Exterior Color Description": "white slightly gray",
-      Type: "Handbag",
-      "detailed description":
-        "More business-oriented with a focus on compartments compared to the more compact and sleek design of the Alma BB.  Best For: A secure and modern luxurious handbag ideal for work, events such as trade shows or distingusihed business travels.. Good for carrying: Ipad",
-      "Make up. Good Alternative Products": "Alma BB",
-      ID: "P01810-EXOTMAT01-EXOTCOLE20-EXOTCOLI20-EXOTMFIN04",
-      source: "variants",
-      url: "https://lv-vivatech-vector.3kit.com/player?sku=P01810&color=undefined&assetId=602d0fbc-7810-4ecf-994f-5a57b2dcd9fb",
-      assetId: "602d0fbc-7810-4ecf-994f-5a57b2dcd9fb",
-    },
+   
 
     {
       Offer: "EXO FEMME",
@@ -137,57 +86,8 @@ export const Products = () => {
       assetId: "602d0fbc-7810-4ecf-994f-5a57b2dcd9fb",
     },
 
-    {
-      Offer: "HARDSIDED",
-      Model: "Courrier Lozine",
-      "Model Size": "Courrier Lozine 110",
-      "Exterior Material": "Epi",
-      Shine: "Mat",
-      "Exterior Color": "Indigo",
-      "Lining Material": "Microfibre",
-      "Lining Color": "Rose pop",
-      "Metallic Finition": "Palladium",
-      "Can Have Patch or Engraving": "Yes",
-      "Can Have Lock": "Yes",
-      SKU: "P00803",
-      "Delivery Time in Days": "14",
-      Price: "57000",
-      Gender: "Unisex",
-      "Exterior Color Description": "dark blue, close to navy blue",
-      Type: "storage box",
-      "detailed description":
-        "More traditionally styled and larger in size for substantial storage including artworks, compared to more modern and compact travel solutions like the Keepall Bandoulière. Best For: A refined and robust travel trunk, featuring traditional Louis Vuitton styling with its vintage hardware and structured design. Ideal for long trips and as a standout travel piece.. Size Comparison: Smaller than : Malle Haute. Good for carrying: Ideal for storing all types of objects. Good Alternative Products: Malle Haute",
-      ID: "P00803-RIGIMAT04-RIGICOLE15-RIGICOLI51-RIGIMFIN02",
-      source: "variants",
-      url: "https://lv-vivatech-vector.3kit.com/player?sku=P00803&color=undefined&assetId=ae8217e4-3819-44b9-8044-e7f5ee2b78cd",
-      assetId: "ae8217e4-3819-44b9-8044-e7f5ee2b78cd",
-    },
-
-    {
-      Offer: "HARDSIDED",
-      Model: "Courrier Lozine",
-      "Model Size": "Courrier Lozine 110",
-      "Exterior Material": "Epi",
-      Shine: "Mat",
-      "Exterior Color": "Piment",
-      "Lining Material": "Microfibre",
-      "Lining Color": "Turquoise",
-      "Metallic Finition": "Palladium",
-      "Can Have Patch or Engraving": "Yes",
-      "Can Have Lock": "Yes",
-      SKU: "P00803",
-      "Delivery Time in Days": "42",
-      Price: "57000",
-      Gender: "Unisex",
-      "Exterior Color Description": "orange",
-      Type: "storage box",
-      "detailed description":
-        "More traditionally styled and larger in size for substantial storage including artworks, compared to more modern and compact travel solutions like the Keepall Bandoulière. Best For: A refined and robust travel trunk, featuring traditional Louis Vuitton styling with its vintage hardware and structured design. Ideal for long trips and as a standout travel piece.. Size Comparison: Smaller than : Malle Haute. Good for carrying: Ideal for storing all types of objects. Good Alternative Products: Malle Haute",
-      ID: "P00803-RIGIMAT04-RIGICOLE13-RIGICOLI55-RIGIMFIN02",
-      source: "variants",
-      url: "https://lv-vivatech-vector.3kit.com/player?sku=P00803&color=undefined&assetId=ae8217e4-3819-44b9-8044-e7f5ee2b78cd",
-      assetId: "ae8217e4-3819-44b9-8044-e7f5ee2b78cd",
-    },
+  
+ 
 
     {
       Offer: "HARDSIDED",

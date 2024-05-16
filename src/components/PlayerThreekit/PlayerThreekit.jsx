@@ -73,10 +73,14 @@ export const PlayerThreekit = (props) => {
       window.threekit = {};
       // @ts-ignore
       window.threekit.player = player;
+      await player.getConfigurator().then((playerConfig) => {
+        window.threekit.configurator = playerConfig;
+        // @ts-ignore
+        return window.threekit.configurator.prefetchAttributes([
+          "Rotate Model",
+        ]);
+      });
       // @ts-ignore
-      window.threekit.configurator = await player.getConfigurator();
-      // @ts-ignore
-      await window.threekit.configurator.prefetchAttributes(["Rotate Model"]);
       await UI_waitForGlobalVar(async () => {});
     };
 

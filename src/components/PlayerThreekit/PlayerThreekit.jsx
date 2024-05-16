@@ -41,6 +41,14 @@ export const PlayerThreekit = (props) => {
   const { assetId } = props;
 
   useEffect(() => {
+     //@ts-ignore
+     window.dataDrivenConfiguratorExtension = undefined;
+     window.dataDrivenConfigurator = undefined;
+     //@ts-ignore
+     window.threekit = undefined;
+     unload3kit();
+     clearThreekitData();
+     
     const loadThreekit = async () => {
       const THREEKIT_PARAMS = {
         threekitUrl: "https://preview.threekit.com/",
